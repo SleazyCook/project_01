@@ -1,0 +1,1 @@
+Instructions for everything regarding Project 01: Personal Site
