@@ -22,10 +22,11 @@ header {
     font-size: 200%;
 }
 
-.home-image {
+/* .home-image { 
+    display: inline;
     max-width: 10%;
     max-height: auto;
-}
+}  */
 
 main {
     background-color: lavender;
