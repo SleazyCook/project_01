@@ -1,0 +1,17 @@
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    background-color: white;
+    margin: 5em;
+}
+
+.image-right {
+    float: right;
+}
+
+.img-left {
+    float: left;
+}

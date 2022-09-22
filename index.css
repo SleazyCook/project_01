@@ -1,0 +1,21 @@
+#goal {
+    text-align: center;
+}
+
+.main-text {
+    width: 350em;
+}
+
+.quote {
+    text-align: center;
+    font-size: 275%;
+    /* display: inline-block; */
+    font-family: 'Great Vibes', cursive;
+}
+
+.home-image { 
+    display: inline;
+    max-width: 5px;
+    max-height: 5px;
+    float: right;
+} 
