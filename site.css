@@ -12,14 +12,19 @@ header {
     /* top: 0;
     bottom: 0; */
     overflow: auto;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    /* justify-content: space-between; */
 }
 
-#nav {
+h1 {
+    float: left;
+}
+
+.nav {
     float: right;
     display: flex;
     list-style: none;
+    text-decoration: none;
 }
 
 /* MAIN */
@@ -29,6 +34,8 @@ main {
     background-color: lavender;
     padding-top: 2em;
     padding-bottom: 2em;
+    margin: 1em;
+    border-radius: 5px;
 }
 
 h2 {

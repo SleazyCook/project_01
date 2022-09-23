@@ -2,20 +2,30 @@
     text-align: center;
 }
 
-.main-text {
-    width: 350em;
+.container {
+    background-color: pink;
+    display: flex;
+    overflow: auto;
+    /* width: 350em; */
+    border-radius: 5px;
+    padding: 1em;
+    margin: 5em;
 }
 
-.quote {
+.quote-col { 
+    font-family: 'Great Vibes', cursive;
     text-align: center;
     font-size: 275%;
-    /* display: inline-block; */
-    font-family: 'Great Vibes', cursive;
 }
 
-.home-image { 
-    display: inline;
-    max-width: 5px;
-    max-height: 5px;
+image {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.home-img { 
+    max-width: 500px;
+    max-height: 500px;
     float: right;
 } 

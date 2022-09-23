@@ -4,14 +4,32 @@ h3 {
 }
 
 .container {
-    background-color: white;
+    background-color: lightblue;
     margin: 5em;
+    overflow: auto;
+    display: flex;
+    overflow: auto;
 }
 
-.image-right {
+.flex-item {
+    overflow: auto;
+    display: flex;
+    width: 100%;
+}
+
+image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#image-right {
     float: right;
+    width: 200px;
+    height: 200px;
 }
 
-.img-left {
+#img-left {
     float: left;
+    width: 200px;
+    height: 200px;
 }
