@@ -20,6 +20,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2em 5em 0 5em;
+    /* position: fixed; */
 }
 
 h1 {

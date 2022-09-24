@@ -23,6 +23,7 @@
     border-radius: 1em;
     padding: 1em;
     margin: 5em;
+    justify-content: center;
 }
 
 #quote-col { 
