@@ -8,7 +8,6 @@ h3 {
     margin: 5em;
     overflow: auto;
     display: flex;
-    overflow: auto;
 }
 
 .flex-item {

@@ -8,18 +8,18 @@ h3 {
     margin: 5em;
     overflow: auto;
     display: flex;
-    overflow: auto;
 }
 
 .flex-item {
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     width: 100%;
 }
 
-/* .flex-text {
+.flex-text {
     font-family:'Times New Roman', Times, serif;
-} */
+    padding-top: 1.3em;
+}
 
 image {
     max-width: 100%;

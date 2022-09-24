@@ -1,41 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 * {
-    color: purple;
+    color: darkblue;
     padding: 5px;
 }
+
+
 
 /* HEADER */
 
 header {
-    background-color: white;
     /* top: 0;
     bottom: 0; */
     overflow: auto;
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-between; */
 }
 
-h1 {
-    float: left;
+a {
+    text-decoration: none;
 }
 
 .nav {
-    float: right;
     display: flex;
     list-style: none;
-    text-decoration: none;
+    float: right;
+    align-self: flex-end;
+    align-content: end; 
 }
 
 /* MAIN */
 
 main {
     margin: 0 auto;
-    background-color: lavender;
     padding-top: 2em;
     padding-bottom: 2em;
     margin: 1em;
     border-radius: 5px;
+    background-image: url(https://thumbs.dreamstime.com/b/blue-bokeh-computer-code-background-job-offer-blue-bokeh-computer-code-background-job-offer-coding-code-learning-180554511.jpg);
+    background-blend-mode: 0.3;
 }
 
 h2 {

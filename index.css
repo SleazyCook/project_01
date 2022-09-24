@@ -2,20 +2,36 @@
     text-align: center;
 }
 
+.subtitle {
+    background-color: lightgrey;
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 10px 0 10px;
+    padding: 5em;
+    justify-content: center;
+}
+
+.flex-subtitle {
+    background-color: lightgrey;
+}
+
 .container {
-    background-color: pink;
+    background-color: lightblue;;
     display: flex;
-    overflow: auto;
+    overflow: hidden;
     /* width: 350em; */
-    border-radius: 5px;
+    border-radius: 1em;
     padding: 1em;
     margin: 5em;
 }
 
-.quote-col { 
+#quote-col { 
     font-family: 'Great Vibes', cursive;
     text-align: center;
     font-size: 275%;
+    display: block;
+    align-items: center;
+    padding-top: 3em;
 }
 
 image {
@@ -24,8 +40,9 @@ image {
     text-align: center;
 }
 
-.home-img { 
+#home-img { 
     max-width: 500px;
     max-height: 500px;
     float: right;
+    padding: 3em;
 } 
