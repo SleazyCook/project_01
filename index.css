@@ -3,16 +3,16 @@
 }
 
 .subtitle {
-    background-color: lightgrey;
-    border-radius: 20px;
-    width: 30%;
-    margin: 0 10px 0 10px;
-    padding: 5em;
     justify-content: center;
+    display: flex;
+    background-color: lightblue;
+    border-radius: 1em;
+    margin: 2em 5em -7em 5em;
+    padding: 1.7em;
 }
 
 .flex-subtitle {
-    background-color: lightgrey;
+    margin: 5em;
 }
 
 .container {
@@ -45,4 +45,5 @@ image {
     max-height: 500px;
     float: right;
     padding: 3em;
+    opacity: 0.75;
 } 

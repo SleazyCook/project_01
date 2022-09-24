@@ -2,10 +2,13 @@
 
 * {
     color: darkblue;
-    padding: 5px;
+    padding: 0;
+    margin: 0;
 }
 
-
+body {
+    background-color: black;
+}
 
 /* HEADER */
 
@@ -13,25 +16,40 @@ header {
     /* top: 0;
     bottom: 0; */
     overflow: auto;
-    /* display: flex; */
-    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 5em 0 5em;
 }
 
-a {
-    text-decoration: none;
+h1 {
+    color: lightblue;
+    font-size:xx-large;
 }
 
 .nav {
+    color: lightblue;
     display: flex;
     list-style: none;
     float: right;
-    align-self: flex-end;
+    /* align-self: flex-end; */
     align-content: end; 
+
+}
+
+.nav a {
+    text-decoration: none;
+    margin:0.5em;
+    color: lightblue;
+}
+
+.current {
+    text-decoration: underline;
 }
 
 /* MAIN */
 
-main {
+/* main {
     margin: 0 auto;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -39,7 +57,7 @@ main {
     border-radius: 5px;
     background-image: url(https://thumbs.dreamstime.com/b/blue-bokeh-computer-code-background-job-offer-blue-bokeh-computer-code-background-job-offer-coding-code-learning-180554511.jpg);
     background-blend-mode: 0.3;
-}
+} */
 
 h2 {
     text-align: center;
