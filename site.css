@@ -50,16 +50,6 @@ h1 {
 
 /* MAIN */
 
-/* main {
-    margin: 0 auto;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin: 1em;
-    border-radius: 5px;
-    background-image: url(https://thumbs.dreamstime.com/b/blue-bokeh-computer-code-background-job-offer-blue-bokeh-computer-code-background-job-offer-coding-code-learning-180554511.jpg);
-    background-blend-mode: 0.3;
-} */
-
 h2 {
     text-align: center;
 }
@@ -74,3 +64,16 @@ footer {
     max-height: auto;
     max-width: 5%;
 }  
+
+/* Media Query */
+
+/* Media query */
+@media all and (max-width: 500px) {
+    .container {
+        justify-content: center;
+    }
+
+    /* img {
+        display: none;
+    } */
+}
