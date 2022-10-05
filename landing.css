@@ -48,3 +48,10 @@ image {
     padding: 3em;
     opacity: 0.75;
 } 
+
+/* Media query */
+@media all and (max-width: 500px) {
+    #quote-col {
+        padding: 0;
+    }
+}
