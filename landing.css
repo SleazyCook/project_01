@@ -19,7 +19,7 @@
     background-color: lightblue;;
     display: flex;
     overflow: hidden;
-    /* width: 350em; */
+    max-width: 1500px;
     border-radius: 1em;
     padding: 1em;
     margin: 5em;

@@ -1,26 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 * {
-    color: darkblue;
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: black;
+    background-color: #1e1e1e;
 }
 
 /* HEADER */
 
 header {
-    /* top: 0;
-    bottom: 0; */
     overflow: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2em 5em 0 5em;
-    /* position: fixed; */
 }
 
 h1 {
@@ -33,7 +29,6 @@ h1 {
     display: flex;
     list-style: none;
     float: right;
-    /* align-self: flex-end; */
     align-content: end; 
 
 }
@@ -55,7 +50,6 @@ h2 {
 }
 
 /* FOOTER */
-
 footer {
     text-align: center;
 }
@@ -73,7 +67,7 @@ footer {
         justify-content: center;
     }
 
-    /* img {
+    img {
         display: none;
-    } */
+    }
 }
