@@ -1,3 +1,4 @@
+
 #goal {
     text-align: center;
 }
@@ -9,6 +10,7 @@
     border-radius: 1em;
     margin: 2em 5em -7em 5em;
     padding: 1.7em;
+    max-width: 1478px;
 }
 
 .flex-subtitle {

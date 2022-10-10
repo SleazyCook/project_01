@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
 
 * {
     padding: 0;
@@ -21,6 +22,11 @@ header {
 h1 {
     color: lightblue;
     font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#drewford {
+    font-family: 'Berkshire Swash';
 }
 
 .nav {
@@ -65,9 +71,9 @@ footer {
         justify-content: center;
     }
 
-    image {
+    /* image {
         display: none;
-    }
+    } */
 
     /* do not hide social media images. */
 }
